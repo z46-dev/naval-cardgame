@@ -13,12 +13,27 @@ Card game inspired by World of Warships's Pacific Front event.
 
 ## How it works
 
+### Battle Types
+
+#### Simple Battles
+
+Simple battles are a very basic strategic game. They are exclusively PvE, and are a way to grind and get new ships. The mechanics follow the World of Warships Pacific Front event.
+
+#### Complex Battles
+
+Complex battles are a more advanced turn-based card game. These can be PvP and PvE. The individual stats of a unit are more valuable, and ships can last for multiple turns. This mode adds status effects, attack directions, different attack types, and more.
+
 ### Units
 
 Units are ships. A ship has a class, tier, and a set of stats. These stats are:
 
-- Health
-- Attack
-- Defense
-- Mobility
-- Stealth
+- Firepower
+- Survivability
+- Maneuverability
+
+These three are combined into the **Total Power** of the ship. The total power is what's taken into account in "simple battles".
+
+We also add additional modificational properties to ships:
+
+- Attack Directions
+- Attack Types
